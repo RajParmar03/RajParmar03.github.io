@@ -32,15 +32,14 @@ function App() {
                 Projects
             </Heading>
             <Projects
-                img="/kickstarter.png"
-                title="kickstarter.com Clone"
-                desc='Kickstarter is an American public benefit corporation based
-            in Brooklyn, New York, that maintains a global crowdfunding
-            platform focused on creativity. The companys stated mission
-            is to "help bring creative projects to life".'
-                code="https://github.com/Aman9723/brawny-plough-6910"
-                live="https://the-great-aman9723-site.netlify.app/"
-                stack={['HTML5', 'CSS3', 'JavaScript', 'React.js', 'Chakra UI']}
+                img="/jefit.png"
+                title="Jefit.com Clone"
+                desc='Jefit is a very famous fitness website on the internet,
+                 that can help people to plan their daily workout and also manage their diet plan.
+                 The companys stated mission is to "help bring creative projects to life".'
+                code="https://github.com/RajParmar03/aquatic-discussion-8005"
+                live="https://unit3-cw18-jefit-clone.netlify.app/"
+                stack={['HTML5', 'CSS3', 'JavaScript']}
             />
             <Contact />
         </div>
