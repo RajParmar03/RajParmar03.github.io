@@ -1,0 +1,6 @@
+.sections:hover{
+    cursor: pointer;
+    color: #ffc200;
+    transition-duration: .3s;
+    transition-timing-function: ease-out;
+}
