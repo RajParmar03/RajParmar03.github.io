@@ -32,7 +32,7 @@ function App() {
                 Projects
             </Heading>
             <Projects
-                img="/jefit.png"
+                img="/Jefit.png"
                 title="Jefit.com Clone"
                 desc='Jefit is a very famous fitness website on the internet,
                  that can help people to plan their daily workout and also manage their diet plan.
