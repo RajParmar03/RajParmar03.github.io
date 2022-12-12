@@ -41,6 +41,17 @@ function App() {
                 live="https://unit3-cw18-jefit-clone.netlify.app/"
                 stack={['HTML5', 'CSS3', 'JavaScript']}
             />
+            <br />
+              <Projects
+                img="/shiphora.png"
+                title="Shiphora.com Clone"
+                desc='Shiphora is a very famous fitness website on the internet,
+                 that can help people to plan their daily workout and also manage their diet plan.
+                 The companys stated mission is to "help bring creative projects to life".'
+                code="https://github.com/RajParmar03/nondescript-question-6337"
+                live="https://thunderous-haupia-f3c38d.netlify.app/"
+                stack={['HTML5', 'CSS3', 'JavaScript',"React.js","Chakra UI"]}
+            />
             <Contact />
         </div>
     );
