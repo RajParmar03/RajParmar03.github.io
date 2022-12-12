@@ -3,6 +3,7 @@ import { Flex, VStack, Image, Text, Heading, Button } from '@chakra-ui/react';
 import { GrDocumentText } from 'react-icons/gr';
 import { AppContext } from '../Context/ContextApi';
 
+
 const identity = [
     'RAJ PARMAR',
     'MERN Stack Developer',
@@ -70,7 +71,8 @@ const Home = () => {
                     the steamroller, you're part of the road.” - Stewart Brand
                 </Text>
                 <a
-                    href="https://drive.google.com/file/d/1Ck_asKSAER4b7pXswbSAVZI6z4o0Y7l4/view?usp=sharing"
+                    // href="https://drive.google.com/file/d/1Ck_asKSAER4b7pXswbSAVZI6z4o0Y7l4/view?usp=sharing"
+                    href="/RAJ_PARMAR_RESUME.pdf" download
                     target="_blank"
                 >
                     <Button
