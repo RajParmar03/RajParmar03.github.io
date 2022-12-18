@@ -2,6 +2,7 @@ import React from 'react';
 import styles from './css/Navbar.module.css';
 import {
     Box,
+    Button,
     Divider,
     Flex,
     Heading,
@@ -16,6 +17,8 @@ import { GiHamburgerMenu } from 'react-icons/gi';
 import { MdDarkMode } from 'react-icons/md';
 import { BsSun } from 'react-icons/bs';
 import { AppContext } from '../Context/ContextApi';
+import { GrDocumentText } from 'react-icons/gr';
+
 
 const Navbar = () => {
     const { isOpen, onOpen, onClose } = useDisclosure();
@@ -63,6 +66,7 @@ const Navbar = () => {
                     display={{ base: 'none', md: 'flex' }}
                     gap="50px"
                     color={colorMode === 'light' ? '#00000080' : 'white'}
+                    alignItems="center"
                 >
                     <Heading
                         size="sm"
@@ -138,6 +142,21 @@ const Navbar = () => {
                     >
                         Contact
                     </Heading>
+                    <a
+                        href="https://drive.google.com/file/d/1Ck_asKSAER4b7pXswbSAVZI6z4o0Y7l4/view?usp=sharing"
+                        // href="/RAJ_PARMAR_RESUME.pdf" download
+                        target="_blank"
+                    >
+                        <Button
+                            zIndex={'-1'}
+                            bg={'#eee'}
+                            color="#5b5b5b"
+                            _hover={{ colorScheme: '#ffc200' }}
+                        >
+                            <GrDocumentText />
+                            &nbsp; Visit Resume
+                        </Button>
+                    </a>
                     <Heading
                         onClick={toggleColorMode}
                         bg="transparent"

@@ -1,4 +1,4 @@
-import { Flex, Image } from '@chakra-ui/react';
+import { Flex, Heading, Image } from '@chakra-ui/react';
 import React from 'react';
 import GitHubCalendar from 'react-github-calendar';
 
@@ -11,6 +11,7 @@ const Github = () => {
             alignItems="flex-start"
             gap="80px"
         >
+            <Heading>Github Statistics</Heading>
             <GitHubCalendar
                 username="RajParmar03"
                 year={new Date().getFullYear()}

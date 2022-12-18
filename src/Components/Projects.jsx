@@ -2,6 +2,7 @@ import {
     Box,
     Button,
     ButtonGroup,
+    Divider,
     Flex,
     Grid,
     Heading,
@@ -30,6 +31,7 @@ let obj = {
 
 const Projects = ({ img, title, desc, code, live, stack }) => {
     return (
+        <>
         <Flex
             fontFamily="Maven Pro"
             flexDirection={{ base: 'column', md: 'row' }}
@@ -37,6 +39,7 @@ const Projects = ({ img, title, desc, code, live, stack }) => {
             boxSizing={'border-box'}
             px={{ base: '25px', md: '45px' }}
             gap="60px"
+            marginBottom="30px"
         >
             <Image
                 src={img}
@@ -84,6 +87,9 @@ const Projects = ({ img, title, desc, code, live, stack }) => {
                 </ButtonGroup>
             </Box>
         </Flex>
+        <Divider />
+        </>
+        
     );
 };
 

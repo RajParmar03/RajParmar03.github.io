@@ -82,7 +82,7 @@ const Home = () => {
                         _hover={{ colorScheme: '#ffc200' }}
                     >
                         <GrDocumentText />
-                        &nbsp; Visit Resume
+                        &nbsp; Download Resume
                     </Button>
                 </a>
             </VStack>
