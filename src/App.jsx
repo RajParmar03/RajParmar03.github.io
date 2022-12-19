@@ -67,7 +67,7 @@ function App() {
                 title="Shine.com Clone"
                 desc='It is a website which connects jobseekers and recruiters by accurately matching candidate profiles to the relevant job openings through an advanced 2-way matching technology.'
                 code="https://github.com/RajParmar03/Shine.com"
-                live="https://shine-clone-by-raj-parmar03.netlify.app/"
+                live="https://rajparmar03-new-shine.netlify.app/"
                 stack={['HTML5', 'CSS3', 'JavaScript']}
             />
             <Contact />
