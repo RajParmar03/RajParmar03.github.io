@@ -52,6 +52,24 @@ function App() {
                 live="https://thunderous-haupia-f3c38d.netlify.app/"
                 stack={['HTML5', 'CSS3', 'JavaScript',"React.js","Chakra UI"]}
             />
+            <br />
+            <Projects
+                img="/relianceSS.png"
+                title="Reliance Digital.com Clone"
+                desc="It is an E-commerce website to buy Electronics Online at India's Best Online Electronic Shopping Store, Reliance Digital. Shop laptops, tvs, mobiles, cameras, home appliances etc from top ...."
+                code="https://github.com/RajParmar03/Reliance_digital_clone"
+                live="https://delightful-twilight-10e5bd.netlify.app/"
+                stack={['React.js', 'Chakra UI', 'Redux']}
+            />
+            <br />
+            <Projects
+                img="/shineSS.png"
+                title="Shine.com Clone"
+                desc='It is a website which connects jobseekers and recruiters by accurately matching candidate profiles to the relevant job openings through an advanced 2-way matching technology.'
+                code="https://github.com/RajParmar03/Shine.com"
+                live="https://shine-clone-by-raj-parmar03.netlify.app/"
+                stack={['HTML5', 'CSS3', 'JavaScript']}
+            />
             <Contact />
         </div>
     );
