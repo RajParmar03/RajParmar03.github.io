@@ -49,6 +49,13 @@ const Navbar = () => {
                         fontSize="20px"
                         fontWeight="bold"
                         fontFamily="Maven Pro"
+                        cursor={"pointer"}
+                        onClick={() => {
+                            homeRef.current.scrollIntoView({
+                                behavior: 'smooth',
+                            });
+                            setElm('home');
+                        }}
                     >
                         RAJ PARMAR
                     </Heading>
@@ -143,10 +150,15 @@ const Navbar = () => {
                     >
                         Contact
                     </Heading>
-                    <a
-                        href="https://drive.google.com/file/d/1Ck_asKSAER4b7pXswbSAVZI6z4o0Y7l4/view?usp=sharing"
-                        // href="/RAJ_PARMAR_RESUME.pdf" download
+                    <a onClick={() =>
+                        window.open(
+                            `https://drive.google.com/file/d/1Ck_asKSAER4b7pXswbSAVZI6z4o0Y7l4/view?usp=sharing`
+                        )
+                    }
+                        href="/fw20_0266-RAJ-PARMAR-RESUME.pdf"
+                        download
                         target="_blank"
+                        rel="noreferrer"
                     >
                         <Button
                             zIndex={'-1'}
@@ -157,6 +169,7 @@ const Navbar = () => {
                             <GrDocumentText />
                             &nbsp; Visit Resume
                         </Button>
+
                     </a>
                     <Heading
                         onClick={toggleColorMode}
@@ -194,6 +207,7 @@ const Navbar = () => {
                                 behavior: 'smooth',
                             });
                             setElm('home');
+                            onClose();
                         }}
                     >
                         Home
@@ -209,6 +223,7 @@ const Navbar = () => {
                                 behavior: 'smooth',
                             });
                             setElm('about');
+                            onClose();
                         }}
                     >
                         About
@@ -224,6 +239,7 @@ const Navbar = () => {
                                 behavior: 'smooth',
                             });
                             setElm('skill');
+                            onClose();
                         }}
                     >
                         Skills
@@ -239,6 +255,7 @@ const Navbar = () => {
                                 behavior: 'smooth',
                             });
                             setElm('project');
+                            onClose();
                         }}
                     >
                         Projects
@@ -253,12 +270,16 @@ const Navbar = () => {
                                 behavior: 'smooth',
                             });
                             setElm('contact');
+                            onClose();
                         }}
                     >
                         Contact
                     </Heading>
                     <Heading
-                        onClick={toggleColorMode}
+                        onClick={() => {
+                            toggleColorMode();
+                            onClose();
+                        }}
                         bg="transparent"
                         size="md"
                         className={styles.sections}
@@ -275,3 +296,21 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
+
+// this is button of resume download.
+{/* <a
+    href="https://drive.google.com/file/d/1Ck_asKSAER4b7pXswbSAVZI6z4o0Y7l4/view?usp=sharing"
+    target="_blank"
+>
+    <Button
+        zIndex={'-1'}
+        bg={'#eee'}
+        color="#5b5b5b"
+        _hover={{ colorScheme: '#ffc200' }}
+    >
+        <GrDocumentText />
+        &nbsp; Visit Resume
+    </Button>
+
+</a> */}

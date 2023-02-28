@@ -56,7 +56,7 @@ const Projects = ({ img, title, desc, code, live, stack }) => {
                 <Heading fontSize={'25px'} fontFamily="Maven Pro">
                     {title}
                 </Heading>
-                <Grid gap={'10px'} templateColumns="repeat(5, 40px)">
+                <Grid gap={'10px'} templateColumns="repeat(6, 40px)">
                     {stack.map((item) => (
                         <Tooltip label={item} key={item}>
                             <Image src={obj[item]} />

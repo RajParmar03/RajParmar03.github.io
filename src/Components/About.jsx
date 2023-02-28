@@ -42,8 +42,7 @@ const About = () => {
                     learning full stack web development from Masai School.
                     <br />
                     Always open to learn new technologies and keen to connect
-                    with like minded people. Activities I am involved in are
-                    fitness, trading and gaming.
+                    with like minded people. Activities I am involved in are reading and listning books and also have interest in trading.
                 </Text>
             </Box>
 

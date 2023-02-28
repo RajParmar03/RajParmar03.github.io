@@ -70,10 +70,15 @@ const Home = () => {
                     “Once a new technology rolls over you, if you're not part of
                     the steamroller, you're part of the road.” - Stewart Brand
                 </Text>
-                <a
-                    // href="https://drive.google.com/file/d/1Ck_asKSAER4b7pXswbSAVZI6z4o0Y7l4/view?usp=sharing"
-                    href="/fw20_0266-RAJ-PARMAR-RESUME.pdf" download
+                <a onClick={() =>
+                    window.open(
+                        `https://drive.google.com/file/d/1Ck_asKSAER4b7pXswbSAVZI6z4o0Y7l4/view?usp=sharing`
+                    )
+                }
+                    href="/fw20_0266-RAJ-PARMAR-RESUME.pdf"
+                    download
                     target="_blank"
+                    rel="noreferrer"
                 >
                     <Button
                         zIndex={'-1'}

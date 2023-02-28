@@ -66,12 +66,13 @@ function App() {
             />
             <br />
             <Projects
-                img="/shineSS.png"
-                title="Shine.com Clone"
-                desc='It is a website which connects jobseekers and recruiters by accurately matching candidate profiles to the relevant job openings through an advanced 2-way matching technology.'
-                code="https://github.com/RajParmar03/Shine.com"
-                live="https://rajparmar03-new-shine.netlify.app/"
-                stack={['HTML5', 'CSS3', 'JavaScript']}
+                img="/bharatCartSS.png"
+                title="Bharat-Cart.com"
+                desc='About
+                Bharat Cart is the website on which users can purchase the product like clothing, footwear , electronic-items, and also some stationary products. And this website also gives accessibility to sell your own products.'
+                code="https://github.com/RajParmar03/Bharat_Cart"
+                live="https://bharat-cart.netlify.app/"
+                stack={['React.js', 'Chakra UI', 'Redux',"Node.js","Mongodb",'Express.js']}
             />
             <Contact />
         </div>
