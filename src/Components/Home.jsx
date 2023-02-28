@@ -72,7 +72,7 @@ const Home = () => {
                 </Text>
                 <a
                     // href="https://drive.google.com/file/d/1Ck_asKSAER4b7pXswbSAVZI6z4o0Y7l4/view?usp=sharing"
-                    href="/RAJ_PARMAR_RESUME.pdf" download
+                    href="/fw20_0266-RAJ-PARMAR-RESUME.pdf" download
                     target="_blank"
                 >
                     <Button
