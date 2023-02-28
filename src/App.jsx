@@ -25,9 +25,12 @@ function App() {
                 fontFamily="Maven Pro"
                 paddingTop="100px"
                 paddingBottom={'20px'}
-                textAlign="left"
+                textAlign="center"
                 px={{ base: '25px', md: '45px' }}
                 ref={projectRef}
+                m={"auto auto 30px auto"}
+                w={"50%"}
+                borderBottom = {"1px solid gray"}
             >
                 Projects
             </Heading>

@@ -8,10 +8,19 @@ const Github = () => {
             paddingTop={'100px'}
             px={{ base: '25px', md: '45px' }}
             flexDirection="column"
-            alignItems="flex-start"
+            alignItems="center"
             gap="80px"
         >
-            <Heading>Github Statistics</Heading>
+           <Heading 
+                fontSize={'35px'} 
+                fontFamily="Maven Pro" 
+                paddingBottom={'20px'}
+                m={"30px auto 30px auto"}
+                w={"50%"}
+                borderBottom={"1px solid gray"}
+            >
+                Github Statistics
+            </Heading>
             <GitHubCalendar
                 username="RajParmar03"
                 year={new Date().getFullYear()}

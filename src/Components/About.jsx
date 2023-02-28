@@ -25,7 +25,7 @@ const About = () => {
                 display={'flex'}
                 flexDirection={'column'}
             >
-                <Heading fontSize={'35px'} fontFamily="Maven Pro">
+                <Heading fontSize={'35px'} textAlign={'center'} fontFamily="Maven Pro">
                     About
                 </Heading>
                 <Text fontSize={'18px'} color={'#5b5b5b'} lineHeight="1.5">

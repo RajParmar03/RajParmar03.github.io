@@ -38,10 +38,11 @@ const Navbar = () => {
                 py="10px"
                 w="100%"
                 pos="sticky"
-                top="0px"
+                top={0}
                 bgColor={colorMode === 'light' ? 'white' : '#1a202c'}
                 borderBottom="1px solid lightgray"
                 color={colorMode === 'light' ? 'rgba(0,0,0,.9)' : 'white'}
+                zIndex={1}
             >
                 <Box p="2">
                     <Heading
@@ -57,13 +58,13 @@ const Navbar = () => {
                     size={'md'}
                     icon={isOpen ? <GrClose /> : <GiHamburgerMenu />}
                     onClick={isOpen ? onClose : onOpen}
-                    display={{ base: 'flex', md: 'none' }}
+                    display={{ base: 'flex', lg: 'none' }}
                     alignItems="center"
                     justifyContent="center"
                     bg="transparent"
                 ></IconButton>
                 <Box
-                    display={{ base: 'none', md: 'flex' }}
+                    display={{ base: 'none', lg: 'flex' }}
                     gap="50px"
                     color={colorMode === 'light' ? '#00000080' : 'white'}
                     alignItems="center"
@@ -173,7 +174,7 @@ const Navbar = () => {
             {isOpen ? (
                 <VStack
                     pb={4}
-                    display={{ base: 'flex', md: 'none' }}
+                    display={{ base: 'flex', lg: 'none' }}
                     gap="10px"
                     color={colorMode === 'light' ? '#00000080' : 'white'}
                     pos="fixed"
