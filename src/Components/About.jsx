@@ -25,7 +25,15 @@ const About = () => {
                 display={'flex'}
                 flexDirection={'column'}
             >
-                <Heading fontSize={'35px'} textAlign={'center'} fontFamily="Maven Pro">
+                <Heading
+                    fontSize={'35px'}
+                    fontFamily="Maven Pro"
+                    paddingBottom={'20px'}
+                    m={"30px auto 30px auto"}
+                    w={"50%"}
+                    textAlign={"center"}
+                    borderBottom={"1px solid gray"}
+                >
                     About
                 </Heading>
                 <Text fontSize={'18px'} color={'#5b5b5b'} lineHeight="1.5">
@@ -38,7 +46,7 @@ const About = () => {
                     fitness, trading and gaming.
                 </Text>
             </Box>
-            
+
         </Flex>
     );
 };

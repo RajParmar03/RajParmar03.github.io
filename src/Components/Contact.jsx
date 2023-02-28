@@ -14,17 +14,21 @@ const Contact = () => {
     return (
         <Flex
             px={{ base: '25px', md: '45px' }}
-            h="300px"
+            h="350px"
             justifyContent="space-evenly"
             marginTop={'80px'}
             flexDirection="column"
             ref={contactRef}
             bg={colorMode == 'light' ? '#ffc200' : null}
         >
-            <Heading
-                fontSize={'35px'}
-                fontFamily="Maven Pro"
-                textAlign={'center'}
+            <Heading 
+                fontSize={'35px'} 
+                fontFamily="Maven Pro" 
+                paddingBottom={'20px'}
+                m={"30px auto 30px auto"}
+                w={"50%"}
+                borderBottom={"1px solid gray"}
+                textAlign={"center"}
             >
                 Contact
             </Heading>
