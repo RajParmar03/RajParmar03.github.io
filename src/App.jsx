@@ -28,32 +28,20 @@ function App() {
                 textAlign="center"
                 px={{ base: '25px', md: '45px' }}
                 ref={projectRef}
-                m={"auto auto 30px auto"}
+                m={"auto auto 50px auto"}
                 w={"50%"}
-                borderBottom = {"1px solid gray"}
+                borderBottom={"1px solid gray"}
             >
                 Projects
             </Heading>
             <Projects
-                img="/Jefit.png"
-                title="Jefit.com Clone"
-                desc='Jefit is a very famous fitness website on the internet,
-                 that can help people to plan their daily workout and also manage their diet plan.
-                 The companys stated mission is to "help bring creative projects to life".'
-                code="https://github.com/RajParmar03/aquatic-discussion-8005"
-                live="https://unit3-cw18-jefit-clone.netlify.app/"
-                stack={['HTML5', 'CSS3', 'JavaScript']}
-            />
-            <br />
-              <Projects
-                img="/shiphora.png"
-                title="Shiphora.com Clone"
-                desc='Shiphora is a very famous fitness website on the internet,
-                 that can help people to plan their daily workout and also manage their diet plan.
-                 The companys stated mission is to "help bring creative projects to life".'
-                code="https://github.com/RajParmar03/nondescript-question-6337"
-                live="https://thunderous-haupia-f3c38d.netlify.app/"
-                stack={['HTML5', 'CSS3', 'JavaScript',"React.js","Chakra UI"]}
+                img="/bharatCartSS.png"
+                title="Bharat-Cart.com"
+                desc='About
+                Bharat Cart is the website on which users can purchase the product like clothing, footwear , electronic-items, and also some stationary products. And this website also gives accessibility to sell your own products.'
+                code="https://github.com/RajParmar03/Bharat_Cart"
+                live="https://bharat-cart.netlify.app/"
+                stack={['React.js', 'Chakra UI', 'Redux', "Node.js", "Mongodb", 'Express.js']}
             />
             <br />
             <Projects
@@ -66,14 +54,26 @@ function App() {
             />
             <br />
             <Projects
-                img="/bharatCartSS.png"
-                title="Bharat-Cart.com"
-                desc='About
-                Bharat Cart is the website on which users can purchase the product like clothing, footwear , electronic-items, and also some stationary products. And this website also gives accessibility to sell your own products.'
-                code="https://github.com/RajParmar03/Bharat_Cart"
-                live="https://bharat-cart.netlify.app/"
-                stack={['React.js', 'Chakra UI', 'Redux',"Node.js","Mongodb",'Express.js']}
+                img="/shiphora.png"
+                title="Shiphora.com Clone"
+                desc='Shiphora is a very famous fitness website on the internet,
+                 that can help people to plan their daily workout and also manage their diet plan.
+                 The companys stated mission is to "help bring creative projects to life".'
+                code="https://github.com/RajParmar03/nondescript-question-6337"
+                live="https://thunderous-haupia-f3c38d.netlify.app/"
+                stack={['HTML5', 'CSS3', 'JavaScript', "React.js", "Chakra UI"]}
             />
+            <br />
+            <Projects
+                img="/Jefit.png"
+                title="Jefit.com Clone"
+                desc='Jefit is a very famous fitness website on the internet,
+                 that can help people to plan their daily workout and also manage their diet plan.
+                 The companys stated mission is to "help bring creative projects to life".'
+                code="https://github.com/RajParmar03/aquatic-discussion-8005"
+                live="https://unit3-cw18-jefit-clone.netlify.app/"
+                stack={['HTML5', 'CSS3', 'JavaScript']}
+            />``
             <Contact />
         </div>
     );
